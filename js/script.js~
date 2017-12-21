@@ -1,0 +1,5 @@
+function action(){
+    var foo = document.getElementById("needbettername");
+
+    console.log(foo);
+}
