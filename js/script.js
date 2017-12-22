@@ -22,6 +22,7 @@ function action(stuffo,stat){
 		console.log(stuffo[i]);
 		var trow = document.createElement("tr");
 		var tdee1 = document.createElement("td");
+		var cname = stuffo[i].county_name;
 		var ndee1 = document.createTextNode(stuffo[i].county_name);
 		tdee1.appendChild(ndee1);
 		trow.appendChild(tdee1);
